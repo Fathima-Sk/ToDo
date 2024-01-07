@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+     background-color: rgb(11, 81, 109);
+     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbQ8Ap-8JJggsmnOZN9OBj_9N35OOlsaaXZo7UJJ-20XsCawB8GOj4jlsh0CyI2fHVEKs&usqp=CAU"); */
+     
+     }
+</style>
+<body>
+   
+    <h2><B>REGISTER</B></h2>
+    <form action="" method="post">
+        {%csrf_token%}
+        {{form.as_p}}  
+        <button >Register</button>
+    </form>
+
+</body>
+</html>
+    
